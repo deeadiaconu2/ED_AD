@@ -1,0 +1,80 @@
+package personaa_ad;
+
+public class Persona_ad {
+
+	//Atributos 
+	
+		private int id;
+		private String nombre;
+		private double masa;
+		private double altura;
+		private int edad;
+		
+		//Constructor por defecto
+		
+		public Persona_ad() {
+			super();
+		}
+		
+		//Constructor con todos los argumentos
+		
+		public Persona_ad(int id, String nombre, double masa, double altura, int edad) {
+			super();
+			this.id = id;
+			this.nombre = nombre;
+			this.masa = masa;
+			this.altura = altura;
+			this.edad = edad;
+		}
+		
+		//Metodo getters y setters
+
+		public int getId() {
+			return id;
+		}
+
+		public void setId(int id) {
+			this.id = id;
+		}
+
+		public String getNombre() {
+			return nombre;
+		}
+
+		public void setNombre(String nombre) {
+			this.nombre = nombre;
+		}
+
+		public double getMasa() {
+			return masa;
+		}
+
+		public void setMasa(double masa) {
+			this.masa = masa;
+		}
+
+		public double getAltura() {
+			return altura;
+		}
+
+		public void setAltura(double altura) {
+			this.altura = altura;
+		}
+
+		public int getEdad() {
+			return edad;
+		}
+
+		public void setEdad(int edad) {
+			this.edad = edad;
+		}
+		
+		//Metodo ToString
+		
+		@Override
+		public String toString() {
+			return "Persona_ad [id=" + id + ", nombre=" + nombre + ", masa=" + masa + ", altura=" + altura + ", edad="
+					+ edad + "]";
+		}
+		
+}
